@@ -11,7 +11,7 @@ class InputHandler:
 
 
     def receive_input(self):
-        menu.display_welcome_message(self._course_scraper.)
+        menu.display_welcome_message(self._course_scraper.delay_in_seconds)
 
         while True:
             menu.display_main_menu()
