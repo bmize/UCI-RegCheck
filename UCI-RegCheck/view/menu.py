@@ -2,9 +2,6 @@
 # Contains helper functions for displaying menus and other messages to the user.
 
 
-DEFAULT_TIME_DELAY_IN_SECONDS = 600
-
-
 def display_welcome_message() -> None:
     print("Welcome to UCI RegCheck! Enter a number corresponding to a menu command to continue.\n\n")
 
