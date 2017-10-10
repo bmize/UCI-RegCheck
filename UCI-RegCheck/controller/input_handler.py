@@ -7,14 +7,14 @@ class InputHandler:
     def __init__(self):
         # self._input = None
         self._command_list = {'1', '2', '3'}
-        self._course_scraper = course_scraper.CourseScraper
+        self._course_scraper = course_scraper.CourseScraper()
 
 
     def receive_input(self):
-        menu.display_welcome_message(self._course_scraper.delay_in_seconds)
+        menu.display_welcome_message()
 
         while True:
-            menu.display_main_menu()
+            menu.display_main_menu(self._course_scraper.delay_in_seconds)
             user_input = input()
 
 
