@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/UCI-RegCheck.iml" filepath="$PROJECT_DIR$/.idea/UCI-RegCheck.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../tests/.idea/tests.iml" filepath="$PROJECT_DIR$/../tests/.idea/tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../test/.idea/tests.iml" filepath="$PROJECT_DIR$/../test/.idea/tests.iml" />
     </modules>
   </component>
 </project>
